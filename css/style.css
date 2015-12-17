@@ -8,7 +8,7 @@ box-sizing: border-box;
 
 body {
 	line-height: 2;
-	color: #FFF;
+	color: #00000;
 }
 
 
@@ -42,11 +42,6 @@ a {
 
 
 
-.container{
-	width: 70%;
-	margin: 0 auto;
-}
-
 .main-header {
 	background: #E0007B;
 	padding: 1em 0;
@@ -64,6 +59,7 @@ a {
 	padding: 2em 0;
 	background: #E0007B;
 	text-align: center;
+	color: #FFF;
 }
 
 
@@ -89,12 +85,24 @@ a {
 		margin-right: 50px;
 	}
 
+	.navbar li {
+		margin-right: -12px;
+	}
+
 	.container {
 		width: 70%;
 		max-width: 1000px;
 		margin: auto;
 	}
 
+		.col {    
+		display: inline-block;
+		width: 50%; 
+		margin-right: -4px;
+		vertical-align: top;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 }
 
 
