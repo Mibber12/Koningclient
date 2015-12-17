@@ -1,0 +1,102 @@
+/*Main element styles*/
+
+* {
+
+box-sizing: border-box;
+
+}
+
+body {
+	line-height: 2;
+	color: #FFF;
+}
+
+
+
+a {
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
+
+/*Navigation*/
+
+.name {
+	margin: 0;
+}
+
+.name a,
+.navbar a {
+	padding: 10px 15px;
+}
+
+/*Base layout styles*/
+
+/*Layout containers*/
+
+
+
+
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.main-header {
+	background: #E0007B;
+	padding: 1em 0;
+}
+
+.name,
+.navbar li {
+	text-align: center;
+	background: #E0007B;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-footer {
+	padding: 2em 0;
+	background: #E0007B;
+	text-align: center;
+}
+
+
+/*Media queries*/
+
+
+
+@media (min-width: 769px) {
+
+	.wrap {
+		min-height: calc(100vh - 96px);
+	
+	}
+
+	.name,
+	.navbar,
+	.navbar li {
+		display: inline;
+	}
+
+	.name {
+		width: 250px;
+		margin-right: 50px;
+	}
+
+	.container {
+		width: 70%;
+		max-width: 1000px;
+		margin: auto;
+	}
+
+}
+
+
+
+
