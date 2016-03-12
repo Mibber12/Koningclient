@@ -8,41 +8,11 @@
 
 body {
 
-  padding-top: 110px;	
-  margin-bottom: 60px;
+  padding: 150px;	
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 200;
-}
-
-
-html,
-body {
-    height: 100%;
-    
-}
-
-aside {
-
-  padding-top: 60px;
-  
-
-}
-
-.portret-img {
-
-      width: 100%;
-        height: 100%;
-        margin-right: 10px;
-        margin-bottom: 30px;
-        margin-top: 8px;
-    
-}
-
-html,
-body {
-    height: 100%;
 }
 
 a { 
@@ -51,16 +21,12 @@ a {
 
 }
 
-.brand-heading {
-    font-size: 120px;
-    color: #fff;
-    letter-spacing: 3px;
-}
+img {
 
-.cbp-af-header-shrink {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    opacity: 0.9;
+margin-left: auto;
+margin-right: auto;
+
+
 }
 
 /* ================================= 
@@ -100,8 +66,8 @@ background-color: #E0007B;
 .navbar {
   margin-bottom: 0px;
   padding: 40px 15px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
   border:none;
 }
 
@@ -179,25 +145,18 @@ background-color: #E0007B;
 ==================================== */
 footer {
    text-align: center;
-   padding: 20px;
-   color:#fff;
-   background-color: #E0007B;
+   padding:1em 0;
+   color:#000;
    margin-top: 20px;
    font-size: 15px;
   
-  
 }
 
 
-  
 /* ================================= 
   Media queries
 ==================================== */
-@media (min-width: 769px) {
 
-.wrap {
 
-  min-height: 100vh;
-}
 
-}
+
