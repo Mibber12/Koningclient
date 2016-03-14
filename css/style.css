@@ -8,12 +8,14 @@
 
 body {
 
+  position: relative;
   padding-top: 110px;	
   margin-bottom: 60px;
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 200;
+
 }
 
 
@@ -74,7 +76,7 @@ a {
 }
 
  .nav.navbar-nav.navbar-right li a {
-    color: #fff;
+    color: #000;
     padding-top: 30px;
     font-size: 18px; 
    
@@ -140,8 +142,15 @@ background-color: #E0007B;
 
 { margin-top:20px; }
 
+img .pastedgraphic {
+  border-radius: 50%;
 
+}
 
+#therapie {
+padding-bottom: 50px;
+
+}
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -179,25 +188,20 @@ background-color: #E0007B;
 ==================================== */
 footer {
    text-align: center;
-   padding: 20px;
-   color:#fff;
+   padding:1em 0;
    background-color: #E0007B;
    margin-top: 20px;
    font-size: 15px;
   
-  
 }
+
+
+
+
 
 
   
 /* ================================= 
   Media queries
 ==================================== */
-@media (min-width: 769px) {
 
-.wrap {
-
-  min-height: 100vh;
-}
-
-}

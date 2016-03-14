@@ -17,8 +17,8 @@
     <script src="js/bootstrap.min.js"></script>
     
 </head>
-<body>
-<div class="wrap">
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
   <header id="top">
 
             <nav class="navbar navbar-default">
@@ -47,9 +47,9 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-
+                                  <li><a href="index.html">Home</a></li>
                                   <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Psycholoog <span class="caret"></span></a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Psycholoog <span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                               <li><a href="#">Behandelingen</a></li>
                                               <li><a href="#">Trajecten</a></li>
@@ -76,13 +76,11 @@
 
   </header>
 
-<div class="container-fluid">
+<div id="therapie" class="container-fluid">
 
         <section class="row title-row">
 
-
-                <div class="fill-screen" style="background-image: url(img/SofaMargit.jpg)">
-            </div>
+              <img class="img-responsive" src="img/SofaMargit.jpg" />
              
 
                
@@ -96,36 +94,60 @@
                     </a>
                 </div>
             
-            </div>
+</div>
 
+
+
+        </section>
+        <section class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        
+                        <img class="img-responsive" class="pastedgraphic" src="img/PastedGraphic-1.png" />
+
+                        <p>Psycholoog</p>
+                        <p>Hier komt een onderschrift</p>
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <img class="img-responsive" class="pastedgraphic" src="img/PastedGraphic-2.png" />
+                        <p>Coaching</p>
+                        <p>Hier komt een onderschrift</p>
+
+                    </div>
+                    
+                    <div class="col-md-2"></div>
         </section>
             
       <section class="row">
             
                     <div class="col-md-2"></div>
-                    <div class="col-md-8">
+                    <div class="col-md-7">
                           <h2>Heb ik therapie of coaching nodig?</h2>
                           <p>
                           Als je verandering wil in je leven zijn er zijn verschillende mogelijkheden om daarbij hulp te krijgen. Wat voor soort hulp je nodig hebt kan verwarrend zijn. Mensen vragen zich vaak af wat het verschil is tussen therapie en coaching, en welke strategie goed is voor hen. Om het verschil uit te leggen tussen therapie en coaching gebruik ik ‘het gat’ en ‘de berg’ metafoor.
                           </p>
                         </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-3"></div>
                    
         </section>            
 
         <section class="row">
                     <div class="col-md-2"></div>
-                    <div class="col-md-8">
+                    <div class="col-md-7">
                           <h2>Therapie</h2>
                             <p>Als je in ‘het gat’ zit, voel je je niet lekker in je vel zitten. Je kunt worstelen met zelftwijfel, angst, depressie, negatieve kern overtuigingen, trauma, onverwerkte zaken uit het verleden, intense emoties, pijnlijke relaties of verslavend gedrag (soms zelfs allemaal tegelijk). Als je je zo voelt kan het erg moeilijk zijn om actie te ondernemen en een doel te bereiken.</p>
                             <p>Totdat je je emotioneel sterker voelt is het niet verstandig om grote veranderingen in je leven in te zetten. Je zou je hulpeloos voelen, gevangen en geen idee hebben hoe je jezelf kunt helpen om jezelf beter te voelen. Of de dingen die je probeert werken niet en geven je een hopeloos gevoel. Soms moet je genezen, groeien en sterker worden aan de binnenkant, voordat je wijzigingen aan de buitenkant kunt maken. Als je in ‘het gat’ zit, heb je de steun van een goed opgeleide therapeut nodig. Iemand die bevoegd is je te helpen uit het gat te klimmen, je helpt weer vaste grond onder je voeten te voelen. Iemand die een veilige ruimte voor je kan creëren om met genezen te beginnen en te groeien.</p>
                             <p>De eerste groeifase is vaak introspectief, subtiel, er gebeurt meer aan de binnenzijde dan aan de buitenzijde. Verandering is riskant en verandering is moeilijk. Je moet je sterk, zelfverzekerd en competent voelen om veranderingen door te voeren en vast te houden. Als je dat niet bent, kan therapie je helpen.
                             </p>
                     </div>
-                    <div class="col-md-2"></div>  
+                    <div class="col-md-3"></div>  
                 
         </section>
   </div>
+
+
       <footer class="container-fluid">
         <div class="row">
               
@@ -135,7 +157,7 @@
         </div>     
       </footer>
 
-</div>
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
