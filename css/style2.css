@@ -7,12 +7,12 @@
 }
 
 body {
-
   padding: 150px;	
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 200;
+
 }
 
 a { 
@@ -22,10 +22,8 @@ a {
 }
 
 img {
-
 margin-left: auto;
 margin-right: auto;
-
 
 }
 
@@ -66,15 +64,17 @@ background-color: #E0007B;
 .navbar {
   margin-bottom: 0px;
   padding: 40px 15px;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   border:none;
+
 }
 
 .navbar-brand small {
   display:block;
   font-size: 17px;
   padding-top: 20px;
+  
 }
 
 /* ================================= 
