@@ -9,7 +9,8 @@
 body {
 
   position: relative;
-  padding-top: 110px;	
+  padding-top: 110px;
+ 
   margin-bottom: 60px;
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
@@ -17,6 +18,7 @@ body {
   font-weight: 200;
 
 }
+
 
 
 html,
@@ -40,7 +42,6 @@ aside {
         margin-bottom: 30px;
         margin-top: 8px;
         
-    
 }
 
 html,
@@ -72,7 +73,8 @@ a {
 
 
 .navbar-default {
-    background-color: #E0007B;
+    background-color: #CC0066;
+
 
 }
 
@@ -96,7 +98,10 @@ a {
 
 .navbar-inverse {
 background-image: none;
-background-color: #E0007B;
+background-color: #CC0066;
+
+
+
 
 }
 
@@ -218,7 +223,7 @@ padding-bottom: 50px;
 footer {
    text-align: center;
    padding:1em 0;
-   background-color: #E0007B;
+   background-color: #CC0066;
    margin-top: 20px;
    font-size: 15px;
    color: #ffffff;
@@ -287,4 +292,5 @@ iframe {
 /* ================================= 
   Media queries
 ==================================== */
+
 
