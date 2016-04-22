@@ -7,11 +7,8 @@
 }
 
 body {
-
   position: relative;
   padding-top: 110px;
- 
-  margin-bottom: 60px;
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
   font-size: 17px;
@@ -20,22 +17,12 @@ body {
 }
 
 
-
-html,
-body {
-    height: 100%;
-    
-}
-
 aside {
-
   padding-top: 60px;
-  
-
+ 
 }
 
 .portret-img {
-
         width: 100%;
         height: 100%;
         margin-right: 10px;
@@ -81,7 +68,7 @@ a {
  .nav.navbar-nav.navbar-right li a {
     color: #fff;
     padding-top: 30px;
-    font-size: 18px; 
+    font-size: 16px; 
    
 }
 
@@ -111,6 +98,7 @@ background-color: #CC0066;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border:none;
+
 }
 
 .navbar-brand small {
@@ -122,7 +110,7 @@ background-color: #CC0066;
 .dropdown-menu {
   background-color: #fff;
   padding-top: 30px;
-  font-size: 18px; 
+  font-size: 14px; 
 }
 
 .dropdown-menu > li > a {
@@ -130,9 +118,22 @@ background-color: #CC0066;
 
 }
 
-.sub-menu > li > a {
-  color: #000000 !important;
+.dropdown-submenu {
+  position: relative;
+}
 
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  width: 350px !important;
+  height: 400px !important;
+ 
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
 }
 
 
@@ -161,39 +162,82 @@ background-color: #CC0066;
 
 }
 
-.top-buffer { 
 
-  margin-top: 20px; 
-
-}
 
 img .pastedgraphic {
   border-radius: 50%;
 
 }
-
-
 #therapie {
 padding-bottom: 50px;
 
 }
 
-.quote {
-  color: #ffffff;
-  font-size: 40px;
-  font-style: italic;
-  font-weight: bold;
 
-}
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
 /* ---- Layout Containers ---- */
 
+
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background: url("../img/SofaMargit.jpg") no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+
+}
+
+ 
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+
+
+}
+
+
+
 .container {
 	padding-left: 1em;
 	padding-right: 1em;
+
 }
 
 .fill-screen {
@@ -201,9 +245,7 @@ padding-bottom: 50px;
     background-position: center;
 }
 
-.content-filler {
-    min-height: 450px;
-}
+
 
 .fixed-attachment {
     background-attachment: fixed;
@@ -217,16 +259,38 @@ padding-bottom: 50px;
 
 }
 
+
+
+
+.get-in-touch {
+position: relative;
+margin: 0 auto;
+padding: 30px;
+max-width: 370px;
+border-radius: 2px;
+background: rgb(255, 255, 255) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAGCAYAAACFIR03AAAAV0lEQVR42tXOMRWAQAwE0RWFDRTg5d47Jeg4Q9gI06RbqlwKil/P6LpXbDCf85AxEBtMGjKG/jyPUHUerfP4nEeoOo/Wedj5pOo8Wudh55Oq82idh51PLxpvled7kLAXAAAAAElFTkSuQmCC) repeat-x;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.get-in-touch input[type=text],.get-in-touch input[type=email], .get-in-touch textarea {
+background: rgb(235, 241, 245);
+color: rgb(36, 39, 41);
+}
+.get-in-touch  input:focus, .get-in-touch  textarea:focus {
+outline: 0;
+background: #FFF;
+}
+
 /* ================================= 
   Styles footer
 ==================================== */
 footer {
    text-align: center;
    padding:1em 0;
-   background-color: #CC0066;
+   background-color: #ffffff;
    margin-top: 20px;
    font-size: 15px;
-   color: #ffffff;
+   color: #CC0066;
   
 }
 

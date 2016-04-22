@@ -10,6 +10,20 @@ $(function () {
         offset: 160
     });
 
+$(document).ready(function() {
+ 
+    // For the Second level Dropdown menu, highlight the parent 
+    $( ".dropdown-menu" )
+    .mouseenter(function() {
+        $(this).parent('li').addClass('active');
+    })
+    .mouseleave(function() {
+        $(this).parent('li').removeClass('active');
+    });
+ 
+});
+
+
     // smooth scrolling
     $('nav a, .down-button a').bind('click', function () {
         $('html, body').stop().animate({
@@ -18,10 +32,7 @@ $(function () {
         event.preventDefault();
     });
 
-});
-
     //initialize WOW for element animation
     new WOW().init();
 
- 
-
+});
