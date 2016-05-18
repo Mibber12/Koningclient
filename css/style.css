@@ -11,8 +11,10 @@ body {
   padding-top: 110px;
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 200;
+  color: #3f3f3f;
+
 
 }
 
@@ -23,8 +25,8 @@ aside {
 }
 
 .portret-img {
-        width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 80%;
         margin-right: 10px;
         margin-bottom: 30px;
         margin-top: 8px;
@@ -37,14 +39,14 @@ body {
 }
 
 a { 
-	color: #000;
+	color: #3f3f3f;
 	text-decoration: none;
 
 }
 
 .brand-heading {
     font-size: 120px;
-    color: #000;
+    color: #3f3f3f;
     letter-spacing: 3px;
 }
 
@@ -114,7 +116,7 @@ background-color: #CC0066;
 }
 
 .dropdown-menu > li > a {
-  color: #000000 !important;
+  color: #3f3f3f !important;
 
 }
 
@@ -141,7 +143,7 @@ background-color: #CC0066;
   Layout Containers
 ==================================== */
 
-.icon-bar {
+/*.icon-bar {
     display:block;
     width: 22px;
     height: 2px;
@@ -162,12 +164,19 @@ background-color: #CC0066;
 
 }
 
+*/
 
-
-img .pastedgraphic {
-  border-radius: 50%;
+div.mouse {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 30px;
+    margin: 0 auto;
+    border: solid 1px #fff;
+    border-radius: 8px;
 
 }
+
 #therapie {
 padding-bottom: 50px;
 
@@ -203,14 +212,8 @@ padding-bottom: 50px;
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
-    font-size: 40px;
+.intro .intro-body .brand-heading { 
     color: #ffffff;
-}
-
-.intro .intro-body .intro-text {
-    font-size: 18px;
-
 }
 
  
@@ -234,11 +237,7 @@ padding-bottom: 50px;
 
 
 
-.container {
-	padding-left: 1em;
-	padding-right: 1em;
 
-}
 
 .fill-screen {
     background-size: cover;
@@ -259,27 +258,6 @@ padding-bottom: 50px;
 
 }
 
-
-
-
-.get-in-touch {
-position: relative;
-margin: 0 auto;
-padding: 30px;
-max-width: 370px;
-border-radius: 2px;
-background: rgb(255, 255, 255) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAGCAYAAACFIR03AAAAV0lEQVR42tXOMRWAQAwE0RWFDRTg5d47Jeg4Q9gI06RbqlwKil/P6LpXbDCf85AxEBtMGjKG/jyPUHUerfP4nEeoOo/Wedj5pOo8Wudh55Oq82idh51PLxpvled7kLAXAAAAAElFTkSuQmCC) repeat-x;
-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.get-in-touch input[type=text],.get-in-touch input[type=email], .get-in-touch textarea {
-background: rgb(235, 241, 245);
-color: rgb(36, 39, 41);
-}
-.get-in-touch  input:focus, .get-in-touch  textarea:focus {
-outline: 0;
-background: #FFF;
-}
 
 /* ================================= 
   Styles footer
