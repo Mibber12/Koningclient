@@ -18,19 +18,13 @@ body {
 
 }
 
-
-aside {
-  padding-top: 60px;
- 
-}
-
 .portret-img {
-        width: 70%;
-        height: 80%;
-        margin-right: 10px;
-        margin-bottom: 30px;
-        margin-top: 8px;
-        
+  padding-top: 30px;
+  margin-left: 10px;
+  width: 120%;
+  height: auto;
+
+
 }
 
 html,
@@ -45,7 +39,7 @@ a {
 }
 
 .brand-heading {
-    font-size: 120px;
+    font-size: 20px;
     color: #3f3f3f;
     letter-spacing: 3px;
 }
@@ -69,7 +63,7 @@ a {
 
  .nav.navbar-nav.navbar-right li a {
     color: #fff;
-    padding-top: 30px;
+    padding-top: 15px;
     font-size: 16px; 
    
 }
@@ -80,8 +74,8 @@ a {
 }
 
 .navbar-brand {
-	padding-top: 30px;
-	font-size: 40px;
+	padding-top: 15px;
+	font-size: 30px;
 
 }
 
@@ -89,14 +83,11 @@ a {
 background-image: none;
 background-color: #CC0066;
 
-
-
-
 }
 
 .navbar {
-  margin-bottom: 0px;
-  padding: 40px 15px;
+  margin-top: 5px;
+  padding: 20px 15px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border:none;
@@ -106,7 +97,8 @@ background-color: #CC0066;
 .navbar-brand small {
   display:block;
   font-size: 17px;
-  padding-top: 20px;
+  padding-top: 15px;
+
 }
 
 .dropdown-menu {
@@ -133,9 +125,11 @@ background-color: #CC0066;
 }
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
+
 }
 .dropdown-submenu:hover > a:after {
-  border-left-color: #fff;
+  border-left-color: #ffffff;
+
 }
 
 
@@ -166,21 +160,6 @@ background-color: #CC0066;
 
 */
 
-div.mouse {
-    position: relative;
-    display: block;
-    width: 20px;
-    height: 30px;
-    margin: 0 auto;
-    border: solid 1px #fff;
-    border-radius: 8px;
-
-}
-
-#therapie {
-padding-bottom: 50px;
-
-}
 
 
 /* ================================= 
@@ -195,9 +174,9 @@ padding-bottom: 50px;
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding-top: 0px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0px;
     color: #fff;
     background: url("../img/SofaMargit.jpg") no-repeat bottom center scroll;
     background-color: #000;
@@ -236,29 +215,6 @@ padding-bottom: 50px;
 }
 
 
-
-
-
-.fill-screen {
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-.fixed-attachment {
-    background-attachment: fixed;
-}
-
-@media (max-width: 1024px) {
-  .fixed-attachment {
-    background-attachment: scroll;
-
-  }
-
-}
-
-
 /* ================================= 
   Styles footer
 ==================================== */
@@ -285,54 +241,5 @@ iframe {
 }
 
 
-/* ================================= 
-  Styles form
-==================================== */
-
-
-.form-top {
-  overflow: hidden;
-  padding: 0 25px 15px 25px;
-  background: #fff;
-  -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
-  text-align: left;
-}
-
-.form-top-left {
-  float: left;
-  width: 75%;
-  padding-top: 25px;
-}
-
-.form-top-left h3 { margin-top: 0; }
-
-.form-top-right {
-  float: left;
-  width: 25%;
-  padding-top: 5px;
-  font-size: 66px;
-  color: #ddd;
-  line-height: 100px;
-  text-align: right;
-}
-
-.form-bottom {
-  padding: 25px 25px 30px 25px;
-  background: #eee;
-  -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
-  text-align: left;
-}
-
-.form-bottom form textarea {
-  height: 100px;
-}
-
-.form-bottom form .input-error {
-  border-color: #19b9e7;
-}
-  
-/* ================================= 
-  Media queries
-==================================== */
 
 
