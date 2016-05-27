@@ -20,9 +20,9 @@ body {
 
 .portret-img {
   padding-top: 30px;
-  margin-left: 40px;
-  margin-right: 20px;
-  width: 70%;
+  margin-left: 20px;
+  margin-right: 40px;
+  width: 80%;
   height: auto;
 
 
@@ -190,6 +190,7 @@ background-color: #B0275F;
 }
 
 .well {
+  width: 100%;
   margin-left: 40px;
   margin-right: 15px;
 
